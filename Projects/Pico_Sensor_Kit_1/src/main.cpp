@@ -143,13 +143,10 @@ void loop() {
     RUNN(500);
     timesUp();
 
-
-
   } else {
     digitalWrite(Led_Pin, LOW);
     digitalWrite(buzzer, LOW);
 
   }
-  
 
 }
