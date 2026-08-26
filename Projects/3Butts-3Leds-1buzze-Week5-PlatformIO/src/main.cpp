@@ -24,8 +24,10 @@ void loop() {
 
 void green(){
   
-  if (digitalRead(ledPin[0]) == HIGH) {
+  if (digitalRead(buttonz[0]) == HIGH) {
         digitalWrite(ledPin[0], LOW);
+  } else {
+    digitalWrite(ledPin[0], HIGH);
   }
 }
 
