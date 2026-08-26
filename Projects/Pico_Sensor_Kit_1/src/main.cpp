@@ -150,3 +150,40 @@ void loop() {
   }
 
 }
+//-------------------------TESTING FOR MULTIPLE LED LIGHTS IN ARRAY------------------------------
+/*Note# Pico-sensor kit board doesn't pick up as much electricity on some pins (No, I'm not
+talking about the GRND pins. >:3 ) */
+/*#include <arduino.h>
+#include <wire.h>
+
+constexpr uint8_t ledPins[3] = {40, 18, 17};
+//constexpr uint8_t button[2] = {14, 4};
+//constexpr uint8_t buzzer[1] = {11};
+
+void blinker(int timer, bool lightOn) {
+  digitalWrite(ledPins[0], lightOn); 
+  delay(timer);
+}
+void blinkein(int timer, bool lightOn) {
+  digitalWrite(ledPins[1], lightOn); 
+  delay(timer);
+}
+void blinkor(int timer, bool lightOn) {
+  digitalWrite(ledPins[2], lightOn); 
+  delay(timer);
+}
+
+void setup() {
+  pinMode(ledPins[0, 1, 2], OUTPUT);
+  digitalWrite(ledPins[0, 1, 2], HIGH);
+  //pinMode(button[0, 1], INPUT_PULLUP);
+
+}
+
+
+void loop() {
+
+
+}
+*/
+//-------------------------------End of LED array test-------------------------------
